@@ -108,7 +108,6 @@ pyarrow==9.0.0
 pycosat==0.6.3
 pycparser==2.21
 pydeck==0.8.0b3
-pygame==2.0.2
 Pygments==2.11.2
 Pympler==1.0.1
 pyOpenSSL==22.0.0
