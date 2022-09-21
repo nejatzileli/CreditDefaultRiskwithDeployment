@@ -1,64 +1,17 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import re
-
-# gc.collect
-import gc
-
-# Encoderlar, Scalerlar ve ML modelleri Import etme.
-from sklearn.preprocessing import MinMaxScaler, LabelEncoder, StandardScaler, RobustScaler
-from sklearn.model_selection import train_test_split, cross_val_score
-from catboost import CatBoostRegressor
-from lightgbm import LGBMRegressor
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.exceptions import ConvergenceWarning
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.svm import SVR
-from sklearn.tree import DecisionTreeRegressor
-from xgboost import XGBRegressor
-from sklearn.model_selection import train_test_split, cross_val_score,GridSearchCV
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, VotingClassifier, AdaBoostClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import cross_validate, GridSearchCV
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.preprocessing import StandardScaler
-from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
-
-# PIPELINE
-from sklearn.compose import make_column_transformer
-from sklearn.pipeline import Pipeline, make_pipeline
-# RANDOM SAMPLING
-from sklearn.preprocessing import *
-from sklearn.decomposition import PCA
-from sklearn.feature_selection import RFE, RFECV
-from sklearn.utils import resample
-#!pip install imblearn
-from imblearn.datasets import make_imbalance
-from imblearn.over_sampling import SMOTE
-
 #!pip install streamlit
 import streamlit as st
 import pickle
-import numpy as np
-import pandas as pd
 #!pip install flask
 import joblib
-import sys
-import numpy
-numpy.set_printoptions(threshold=sys.maxsize)
+#import sys
+#numpy.set_printoptions(threshold=sys.maxsize)
 
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', None)
-pd.set_option('display.width', 500)
-pd.set_option('display.float_format', lambda x: '%.3f' % x)
+#pd.set_option('display.max_columns', None)
+#pd.set_option('display.max_rows', None)
+#pd.set_option('display.width', 500)
+#pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 last_test = pd.read_csv(r'CreditDefaultRiskwithDeployment/mycsvfile2.csv')
 model = joblib.load(r'CreditDefaultRiskwithDeployment/lgbm_final.pkl')
