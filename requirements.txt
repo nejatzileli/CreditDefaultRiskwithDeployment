@@ -1,7 +1,6 @@
 altair==4.2.0
 anaconda-client==1.10.0
 anaconda-navigator==2.0.3
-anyio @ file:///C:/ci/anyio_1644463701441/work/dist
 argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
 argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569878360/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
