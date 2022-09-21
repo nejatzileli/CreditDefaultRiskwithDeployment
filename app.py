@@ -13,8 +13,8 @@ import joblib
 #pd.set_option('display.width', 500)
 #pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
-last_test = pd.read_csv('mycsvfile2.csv')
-model = joblib.load('lgbm_final.pkl')
+last_test = pd.read_csv('https://github.com/nejatzileli/CreditDefaultRiskwithDeployment/blob/main/mycsvfile2.csv')
+model = joblib.load('https://github.com/nejatzileli/CreditDefaultRiskwithDeployment/blob/main/lgbm_final.pkl')
 
 col_list = last_test.columns
 #s = [','.join(col_list)]
