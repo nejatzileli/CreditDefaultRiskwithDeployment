@@ -14,7 +14,7 @@ import joblib
 #pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
 last_test = pd.read_csv('mycsvfile3.csv')
-model = joblib.load('https://raw.github.com/nejatzileli/CreditDefaultRiskwithDeployment/blob/main/lgbm_final.pkl')
+model = joblib.load('lgbm_final.pkl')
 
 col_list = last_test.columns
 #s = [','.join(col_list)]
