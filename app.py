@@ -37,14 +37,14 @@ def main():
  
     #for col in last_test.columns:
         #print(col ,'=', "st.text_input(",'"',col,'"',",1)")
-    CODE_GENDER = st.text_input("Client's Gender"), 'Type Here!')
+    CODE_GENDER = st.text_input("Client's Gender (CODE_GENDER)", 'Type Here!')
     FLAG_OWN_CAR = 1
     FLAG_OWN_REALTY = 1
-    CNT_CHILDREN = st.text_input("Total number of children client have (CNT_CHILDREN)"), 'Type Here!')
-    AMT_INCOME_TOTAL = st.text_input("Client's Annual Income (AMT_INCOME_TOTAL)"), 'Type Here!')
-    AMT_CREDIT = st.text_input("The amount of credit (AMT_CREDIT)"), 'Type Here!')
+    CNT_CHILDREN = st.text_input("Total number of children client have (CNT_CHILDREN)", 'Type Here!')
+    AMT_INCOME_TOTAL = st.text_input("Client's Annual Income (AMT_INCOME_TOTAL)", 'Type Here!')
+    AMT_CREDIT = st.text_input("The amount of credit (AMT_CREDIT)", 'Type Here!')
     AMT_ANNUITY = 1
-    AMT_GOODS_PRICE = st.text_input("The target good's price (AMT_GOODS_PRICE)"), 'Type Here!')
+    AMT_GOODS_PRICE = st.text_input("The target good's price (AMT_GOODS_PRICE)", 'Type Here!')
     REGION_POPULATION_RELATIVE = 1
     DAYS_BIRTH = st.text_input("Age in the time of the loan application (DAYS_BIRTH)", 'Type Here!')
     DAYS_EMPLOYED = st.text_input("Total number of employed days (DAYS_EMPLOYED)", 'Type Here!')
