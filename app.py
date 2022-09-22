@@ -34,12 +34,15 @@ def main():
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
-
+    
+    #st.text_input("FLAG_OWN_CAR", 1)
+    #st.text_input(" FLAG_OWN_REALTY ", 1)
+ 
     #for col in last_test.columns:
         #print(col ,'=', "st.text_input(",'"',col,'"',",1)")
     CODE_GENDER = st.text_input("CODE_GENDER", 1)
-    FLAG_OWN_CAR = st.text_input("FLAG_OWN_CAR", 1)
-    FLAG_OWN_REALTY = st.text_input(" FLAG_OWN_REALTY ", 1)
+    FLAG_OWN_CAR = 1
+    FLAG_OWN_REALTY = 1
     CNT_CHILDREN = st.text_input(" CNT_CHILDREN ", 1)
     AMT_INCOME_TOTAL = st.text_input(" AMT_INCOME_TOTAL ", 1)
     AMT_CREDIT = st.text_input(" AMT_CREDIT ", 1)
